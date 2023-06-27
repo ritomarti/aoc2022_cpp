@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::ifstream input("input2.txt");
+    std::ifstream input("../inputs/Day1.txt");
     std::string line;
     int maxCalorie1 = 0;
     int maxCalorie2 = 0;
