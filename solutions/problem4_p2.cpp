@@ -35,14 +35,12 @@ int main()
         int secStart = secStartInfo.first;
         int secEnd = secEndInfo.first;
 
-        if (firstStart <= secStart && firstEnd >= secEnd )
+        if (firstStart <= secEnd && firstEnd >= secStart)
         {
+
             score++;
         }
-        else if (firstStart >= secStart && firstEnd <= secEnd)
-        {
-            score++;
-        }
+
     }
     std::cout << score << std::endl;
 }
